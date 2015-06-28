@@ -1,4 +1,4 @@
-# React Spinner
+# React SpinJS
 
 This is build on top of the fantastic spinner library, [spin.js](http://fgnass.github.io/spin.js/). This exposes spin.js as a component.
 

@@ -1,5 +1,5 @@
 {
-  "name": "react-spinner",
+  "name": "react-spinjs",
   "version": "1.0.0",
   "description": "A wrapper around spin.js, instantly useable",
   "main": "lib",
