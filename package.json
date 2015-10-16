@@ -14,7 +14,9 @@
   },
   "keywords": [
     "react",
-    "spinner"
+    "spinner",
+    "spinjs",
+    "spin.js"
   ],
   "dependencies": {
     "spin.js": "^2.3.1"
