@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "prepublish": "npm start",
-    "start": "babel src --out-dir lib",
+    "start": "rm -rf lib && babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
