@@ -1,11 +1,11 @@
 {
   "name": "react-spinjs",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A wrapper around spin.js, instantly useable",
   "main": "lib",
   "scripts": {
     "prepublish": "npm start",
-    "start": "babel src --out-dir lib",
+    "start": "rm -rf lib && babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,13 +14,15 @@
   },
   "keywords": [
     "react",
-    "spinner"
+    "spinner",
+    "spinjs",
+    "spin.js"
   ],
   "dependencies": {
     "spin.js": "^2.3.1"
   },
   "peerDependencies": {
-    "react": "^0.13.3"
+    "react": "^0.14.0"
   },
   "author": "Qiming Weng",
   "license": "MIT",
