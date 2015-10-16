@@ -19,10 +19,10 @@ export default class ReactSpinner extends React.Component {
       width: 2,
       radius: 10,
       length: 7,
+      // color should not overwrite config
+      color,
       // config will overwrite anything else
       ...config,
-      // color will overwrite config
-      color,
     };
 
     this.spinner = new Spinner(spinConfig);
