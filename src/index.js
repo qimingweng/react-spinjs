@@ -32,6 +32,6 @@ export default class ReactSpinner extends React.Component {
     this.spinner.stop();
   }
   render() {
-    return (<span ref="container"/>)
+    return <span ref="container"/>;
   }
 }
