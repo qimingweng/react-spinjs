@@ -7,7 +7,7 @@ This is build on top of the fantastic spinner library, [spin.js](http://fgnass.g
 # Usage
 
 ```javascript
-import ReactSpinner from 'react-spinner';
+import ReactSpinner from 'react-spinjs';
 
 // Put a default spinner
 <ReactSpinner/>
